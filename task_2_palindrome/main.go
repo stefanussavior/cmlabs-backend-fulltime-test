@@ -23,6 +23,9 @@ func main() {
 	fmt.Println(Palindrome("Anna"))
 	fmt.Println(Palindrome("Civic"))
 
+	fmt.Println(Palindrome("My gym"))
+	fmt.Println(Palindrome("No lemon, no melon"))
+
 	fmt.Println("Masukkan Kata : ")
 	fmt.Scanln(&input)
 	fmt.Println(Palindrome(input))
